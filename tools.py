@@ -8,7 +8,6 @@ import sys
 Slurp returns the contens of a file as a list
 """
 
-
 def slurp(filename):
     try:
         my_file = open(filename, "r")
@@ -19,7 +18,6 @@ def slurp(filename):
         content_list = content.splitlines()
         my_file.close()
         return content_list
-#
 
 
 def placeholder():
